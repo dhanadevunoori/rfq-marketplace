@@ -54,17 +54,6 @@ function App() {
           />
 
           <Route
-            path="/supplier"
-            element={
-              <ProtectedRoute role="SUPPLIER">
-                <div className="p-8">
-                  Supplier Dashboard
-                </div>
-              </ProtectedRoute>
-            }
-          />
-
-          <Route
   path="/buyer/rfqs/create"
   element={
     <ProtectedRoute role="BUYER">
